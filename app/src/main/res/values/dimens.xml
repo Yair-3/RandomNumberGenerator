@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="inputMinWidth">20dp</dimen>
+    <dimen name="default_activity_margin">16dp</dimen>1223
+    <dimen name="space_for_result_tv">75dp</dimen>
+    <dimen name="txt_views_height">200dp</dimen>
+    <dimen name="txt_views_width">300dp</dimen>
+    <dimen name="bars_height">50dp</dimen>
+    <dimen name="bars_width">150dp</dimen>
+    <dimen name="result_size">24pt</dimen>
+
+</resources>

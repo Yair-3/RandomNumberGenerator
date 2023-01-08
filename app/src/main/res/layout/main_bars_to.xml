@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/textInputLayoutTo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/default_activity_margin"
+    android:hint="@string/from_helper_text"
+    android:textColorHint="@color/black"
+    app:boxBackgroundColor="@color/light_blue"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textInputLayoutFrom">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/currencyToName"
+        android:layout_width="@dimen/bars_width"
+        android:layout_height="@dimen/bars_height"
+        android:ems="@integer/emsFromTo"
+        android:inputType="number"
+        android:minWidth="@dimen/inputMinWidth"
+        android:textColor="@color/black" />
+
+</com.google.android.material.textfield.TextInputLayout>

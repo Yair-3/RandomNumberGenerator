@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/main_include_instruction" />
+
+    <include layout="@layout/main__bars_from" />
+
+    <include layout="@layout/main_bars_to" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="@dimen/default_activity_margin"
+        android:layout_marginBottom="@dimen/default_activity_margin"
+        app:cardBackgroundColor="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayoutTo"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayoutTo"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutTo">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:freezesText="true"
+            android:gravity="center"
+            android:text="@string/tv_result"
+            android:textSize="@dimen/result_size">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
